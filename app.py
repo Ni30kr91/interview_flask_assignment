@@ -45,5 +45,5 @@ def generate_image():
     return Response(img_bytes, mimetype='image/'+img_format)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
